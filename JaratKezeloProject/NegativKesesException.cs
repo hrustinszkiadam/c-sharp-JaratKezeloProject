@@ -8,7 +8,6 @@ namespace JaratKezeloProject
 {
 	public class NegativKesesException : Exception
 	{
-		public NegativKesesException() : base("A késés nem lehet negatív!")
-		{ }
+		public NegativKesesException() : base("A késés nem lehet negatív!") { }
 	}
 }
