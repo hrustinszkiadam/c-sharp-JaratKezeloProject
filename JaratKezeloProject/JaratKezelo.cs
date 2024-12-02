@@ -10,6 +10,8 @@ namespace JaratKezeloProject
 	{
 		private List<Jarat> jaratok;
 
+		public List<Jarat> Jaratok { get => jaratok; }
+
 		public JaratKezelo()
 		{
 			jaratok = new List<Jarat>();
